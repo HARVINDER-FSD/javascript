@@ -1,0 +1,8 @@
+
+let grade = 85;          
+const name = "Jay"; 
+
+grade = 90;  
+
+console.log("Grade: " + grade);
+console.log("Name: " + name);
