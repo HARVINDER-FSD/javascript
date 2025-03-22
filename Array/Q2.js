@@ -3,7 +3,7 @@
 
 
 //javascriptCopy code
-var names = ["Shreyansh", "Shrey", "Rishabh"];
+var names = ["harvinder", "Singh", "bittu"];
 console.log(names[0]);
 console.log(names[1]);
 console.log(names[2]);

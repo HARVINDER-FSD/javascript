@@ -1,9 +1,4 @@
-//Code 5: Create an array price, store prices, and print the last price
 
-
-
-//javascriptCopy code
-//Not a generic code
 var prices = [45, 71, 29];
 console.log(prices[2]);
 
