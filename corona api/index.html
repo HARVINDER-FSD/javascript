@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COVID-19 India Stats</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+      margin: 5px 0;
+    }
+    #d1 {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin: 20px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card h3 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin: 10px 0;
+    }
+
+    .card .stat {
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+  <body>
+    <div id="d1"></div>
+
+    <script>
+      function fetchdata() {
+        fetch("https://api.rootnet.in/covid19-in/stats/latest")
+          .then((res) => res.json())
+          .then((data) => cardList(data.data))
+          .catch((err) => console.log(err));
+      }
+      fetchdata();
+
+      function cardList(data) {
+        // Create cards for each state in the regional data
+        let store = data.regional.map((el) =>
+          card(
+            el.total,
+            el.confirmedCasesIndian,
+            el.discharged,
+            el.deaths,
+            el.loc
+          )
+        );
+        document.getElementById("d1").innerHTML = store.join("");
+      }
+
+      function card(total, confirmed, recovered, deaths, state) {
+        let card = `
+        <div class="card">
+          <h3>COVID-19 India Stats for ${state}</h3>
+          <p>Total Cases: ${total}</p>
+          <p>Confirmed Cases: ${confirmed}</p>
+          <p>Recovered: ${recovered}</p>
+          <p>Deaths: ${deaths}</p>
+        </div>
+      `;
+        return card;
+      }
+    </script>
+  </body>
+</html>
