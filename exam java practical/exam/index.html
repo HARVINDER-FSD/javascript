@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 20px;
+        }
+        .left-section {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+        }
+        .right-section {
+            width: 70%;
+        }
+        h2, h3 {
+            text-align: center;
+            color: #333;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #218838;
+        }
+        .product {
+            
+            align-items: center;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            margin-left: 70px;
+        }
+        .product img {
+            width: 165px;
+            height: 175px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-left: 200px;
+        }
+        .product-info {
+            flex-grow: 1;
+            font-size: 16px;
+        }
+        .product-info strong {
+            font-size: 20px;
+            color: #333;
+        }
+        .actions button {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .actions button:hover {
+            background: #218838;
+        }
+        .actions .delete-btn {
+            background: #dc3545;
+        }
+        .actions .delete-btn:hover {
+            background: #c82333;
+        }
+    </style>
+
+</head>
+<body>
+    <section class="container">
+        <div class="left-section">
+            <h2><strong>Product Management</strong></h2>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="🔍 Search by title" oninput="searchProducts()">
+            </div>
+            <input type="text" id="title" placeholder="Product Title">
+            <input type="number" id="price" placeholder="Price">
+            <input type="text" id="image" placeholder="Image URL">
+            <input type="text" id="category" placeholder="Category">
+            <button onclick="addProduct()">Add Product</button>
+            <h3><strong>Filter & Search</strong></h3>
+            <select id="sort" onchange="sortProducts()">
+                <option value="">Sort by price</option>
+                <option value="low">Low to High</option>
+                <option value="high">High to Low</option>
+            </select>
+            <select id="filter" onchange="filterProducts()">
+                <option value="">Filter by Category</option>
+            </select>
+        </div>
+        <div class="right-section">
+            <h3><strong>Product List</strong></h3>
+            <div id="productList"></div>
+        </div>
+    </section>
+   
+    <script>
+        let products = JSON.parse(localStorage.getItem('products')) || [];
+        displayProducts();
+
+        function addProduct() {
+            const title = document.getElementById('title').value;
+            const price = document.getElementById('price').value;
+            const image = document.getElementById('image').value;
+            const category = document.getElementById('category').value;
+
+            if (!title || !price) {
+                alert("Title and Price are required");
+                return;
+            }
+
+            const product = { id: Date.now(), title, price, image, category };
+            products.push(product);
+            localStorage.setItem('products', JSON.stringify(products));
+            displayProducts();
+            document.getElementById('title').value = "";
+            document.getElementById('price').value = "";
+            document.getElementById('image').value = "";
+            document.getElementById('category').value = "";
+        }
+
+        function displayProducts() {
+            const list = document.getElementById('productList');
+            list.innerHTML = "";
+            products.forEach(product => addProductToList(product));
+            updateFilterOptions();
+        }
+
+        function addProductToList(product) {
+            const list = document.getElementById('productList');
+            const div = document.createElement('div');
+            div.className = 'product';
+            div.innerHTML = `
+                <img src="${product.image}" alt="Product">
+                <div>
+                    <strong>${product.title}</strong> - $${product.price}<br>
+                    <small>${product.category}</small>
+                </div>
+                <div class="actions">
+                    <button onclick="editProduct(${product.id})">Edit</button>
+                    <button onclick="deleteProduct(${product.id})">Delete</button>
+                </div>
+            `;
+            list.appendChild(div);
+        }
+
+        function deleteProduct(id) {
+            products = products.filter(p => p.id !== id);
+            localStorage.setItem('products', JSON.stringify(products));
+            displayProducts();
+        }
+
+        function editProduct(id) {
+            const product = products.find(p => p.id === id);
+            document.getElementById('title').value = product.title;
+            document.getElementById('price').value = product.price;
+            document.getElementById('image').value = product.image;
+            document.getElementById('category').value = product.category;
+            deleteProduct(id);
+        }
+
+        function sortProducts() {
+            const sortValue = document.getElementById('sort').value;
+            if (sortValue === 'low') products.sort((a, b) => a.price - b.price);
+            if (sortValue === 'high') products.sort((a, b) => b.price - a.price);
+            displayProducts();
+        }
+
+        function searchProducts() {
+            const query = document.getElementById('search').value.toLowerCase();
+            const filtered = products.filter(p => p.title.toLowerCase().includes(query));
+            document.getElementById('productList').innerHTML = "";
+            filtered.forEach(p => addProductToList(p));
+        }
+
+        function filterProducts() {
+            const category = document.getElementById('filter').value;
+            if (!category) return displayProducts();
+            const filtered = products.filter(p => p.category === category);
+            document.getElementById('productList').innerHTML = "";
+            filtered.forEach(p => addProductToList(p));
+        }
+
+        function updateFilterOptions() {
+            const categories = [...new Set(products.map(p => p.category))];
+            const filterSelect = document.getElementById('filter');
+            filterSelect.innerHTML = '<option value="">Filter by Category</option>';
+            categories.forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat;
+                option.textContent = cat;
+                filterSelect.appendChild(option);
+            });
+        }
+    </script>
+</body>
+</html>
