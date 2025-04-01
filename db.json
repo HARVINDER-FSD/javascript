@@ -1,188 +1,200 @@
 {
-  "pitches": [
+  "breeds": [
     {
-      "title": "Beyond Snack Kerala Banana Chips",
-      "price": 50,
-      "percentage": 2.5,
-      "description": "The glory of Kerala-special banana chips spread far and wide. The fresh bananas grown in local fields and farms are cleaned, cut and cooked in pure oil to make the tastiest banana chips ever.",
-      "founder": "Manas Madhu",
-      "category": "Food",
-      "year": "12-02-2020",
-      "image": "https://m.media-amazon.com/images/I/819GDpbJp3L._AC_UL480_FMwebp_QL65_.jpg",
-      "id": "1"
+      "name": "Labrador Retriever",
+      "link": "https://dogbreedo.com/labrador-puppy-price-in-india/",
+      "description": "The Labrador Retriever is one of the most preferred choices for Indians. They are smart and loving and make a great family dog.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/labrador-retriever.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/labrador-retriever-big-1.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/labrador-retriever.jpg",
+      "size": "Large",
+      "traits": ["Agile", "gentle", "kind", "Intelligent"],
+      "group": "Sporting",
+      "lifespan": "10 – 14 years"
     },
     {
-      "image": "https://m.media-amazon.com/images/I/81MJ4Eic6YL._AC_CR0%2C0%2C0%2C0_SX615_SY462_.jpg",
-      "price": "75",
-      "percentage": 21,
-      "description": "At Wakao, we are passionate about healthy, sustainable food. Our goal is to bring ethically sourced, sustainably grown food to our customer’s dinner table",
-      "founder": "Sairaj Dhond",
-      "category": "Food",
-      "year": "05-04-2020",
-      "title": "Wakao products",
-      "id": "3"
+      "name": "German Shepherd",
+      "link": "https://dogbreedo.com/german-shepherd-price-in-india/",
+      "description": "German shepherds as breeds are considered to be one of the most intelligent. They are smart and intuitive. They are mostly used as guard dogs and for police and military work.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2019/07/german-shepherd.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/german-shepherd-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2019/07/german-shepherd.jpg",
+      "size": "Large",
+      "traits": ["Loyal", "obedient", "watchful", "courageous"],
+      "group": "Herding",
+      "lifespan": "9 – 13 years"
     },
     {
-      "image": "https://m.media-amazon.com/images/I/81BHMCJnp9L._SX679_PIbundle-5,TopRight,0,0_AA679SH20_.jpg",
-      "price": 26,
-      "percentage": 2.5,
-      "description": "ntroducing first popped potato chips of india. Not Fried, Not Baked with 50% Less Fat. Enjoy Lip-Smacking Snacks Guilt-Free with Tagz Popped Potato Chips With 50% Less Fats. Premium Chocolate Cookies. No Artificial Flavors.",
-      "founder": "Anish Basu Roy",
-      "category": "Food",
-      "year": "06-05-2017",
-      "title": "Tagz Chips",
-      "id": "4"
+      "name": "Golden Retriever",
+      "link": "https://dogbreedo.com/golden-retriever-price-in-india/",
+      "description": "This is another popular dog breed in the list of most popular dog breeds in India. Golden Retrievers are easy to train. They have a very pleasing demeanor. They are suitable as family dogs.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/golden-retriever.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/golden-retriever-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/golden-retriever.jpg",
+      "size": "Large",
+      "traits": ["friendly", "reliable", "kind", "intelligent"],
+      "group": "Sporting",
+      "lifespan": "10 – 12 years"
     },
     {
-      "image": "https://m.media-amazon.com/images/I/81UAsQsdp5L._AC_UL480_FMwebp_QL65_.jpg",
-      "price": 24,
-      "percentage": 23,
-      "description": "Buy The Sass Bar Brand Products Online at best Price in India. Shop 100% organic and Natural products ",
-      "founder": "Rishika Nayak",
-      "category": "Personal Care",
-      "year": "20-01-2014",
-      "title": "The Saas Bar ",
-      "id": "5"
+      "name": "Dachshund",
+      "link": "https://dogbreedo.com/dachshund-price-in-india/",
+      "description": "This breed of dog can be found in various sizes and colors. They are among the most preferred dogs in the Indian household because of their unique look. They are short-legged and have long tails.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/dachshund.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/dachshund-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/dachshund.jpg",
+      "size": "Small",
+      "traits": ["stubborn", "lively", "playful", "clever"],
+      "group": "Hound",
+      "lifespan": "12 – 16 years"
     },
     {
-      "image": "https://m.media-amazon.com/images/I/61RjUgGy04L._AC_UY327_FMwebp_QL65_.jpg",
-      "price": 52,
-      "percentage": 25,
-      "description": "Just over a year old, Haryana-based Hammer founded by Rohit Nandwani has streamlined its product range keeping with the shift to wireless audio tech. It is now focused on strengthening its D2C game.",
-      "founder": "Rohit Nandwani",
-      "category": "Electronics",
-      "year": "21-03-2012",
-      "title": "Hammer",
-      "id": "6"
+      "name": "Beagle",
+      "link": "https://dogbreedo.com/beagle-dog-price-in-india/",
+      "description": "Beagles are known for being good with kids. They are fun-loving and energetic. This makes them great family dogs.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2019/07/beagle.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/beagle-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2019/07/beagle.jpg",
+      "size": "Small",
+      "traits": ["Determined", "excitable", "amiable", "Gentle"],
+      "group": "Hound",
+      "lifespan": "12 – 15 years"
     },
     {
-      "image": "https://m.media-amazon.com/images/I/51DUbOFXgHL._AC_UL480_FMwebp_QL65_.jpg",
-      "price": 35,
-      "percentage": 5,
-      "description": "'Auli Lifestyle' has been conceptualised and created by the effervescent Aishwarya Biswas. Her passion for wellness essentials",
-      "founder": "Aishwarya Biswas",
-      "category": "Personal Care",
-      "year": "14-06-2016",
-      "title": "auli Lifestyle",
-      "id": "7"
+      "name": "Boxer",
+      "link": "https://dogbreedo.com/boxer-dog-price-in-india/",
+      "description": "Boxer is known as a high-energy dog. Known for their strength and agility, Boxers make good watchdogs for families. While they show patience and playfulness towards children, they respond aggressively to anything that threatens their loved ones.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/boxer.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/boxer-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/boxer.jpg",
+      "size": "Large",
+      "traits": ["Devoted", "Loyal", "Bright", "Fearless"],
+      "group": "Working",
+      "lifespan": "10 – 12 years"
     },
     {
-      "image": "https://m.media-amazon.com/images/I/71Wa7-cOUqL._AC_UL480_FMwebp_QL65_.jpg",
-      "price": 19,
-      "percentage": 2.5,
-      "description": "Looking for Quirky shoes & clothes? Check out The Quirky Naari! Explore a range of LED shoes & Party wear sneakers that will make you stand out",
-      "founder": "Malvica Saxena",
-      "category": "Fashion",
-      "year": "14-08-2021",
-      "title": "Quirky Naari",
-      "id": "8"
+      "name": "Tibetan Mastiff",
+      "link": "https://dogbreedo.com/tibetan-mastiff-price-in-india/",
+      "description": "This is an ancient dog breed originating from Tibet. Large and intimidating, Tibetan Mastiffs are mostly used as guard dogs. They are affectionate towards family and show territorial aggression towards strangers.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2019/07/Tibetan-Mastiff-1.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2019/07/Tibetan-Mastiff-1.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2019/07/Tibetan-Mastiff-1.jpg",
+      "size": "Large",
+      "traits": ["Tenacious", "Aloof", "Strong-willed", "Stubborn"],
+      "group": "Working",
+      "lifespan": "12 – 15 years"
     },
     {
-      "image": "https://static.wixstatic.com/media/5755f6_023c4baf970a43e4b187f7271a33fcad~mv2.png/v1/crop/x_237,y_352,w_1328,h_1331/fill/w_614,h_614,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/5755f6_023c4baf970a43e4b187f7271a33fcad~mv2.png",
-      "price": 54,
-      "percentage": 12,
-      "description": "Asia's first and only custom made electric kick scooter operator.World’s first in-premises electric vehicle hybrid-subscription fleet service.",
-      "founder": "Rutvij Dasadia ",
-      "category": "Education",
-      "year": "21-05-2021",
-      "title": "Booz scooters",
-      "id": "9"
+      "name": "English Cocker Spaniel",
+      "link": "https://dogbreedo.com/english-cocker-spaniel-price-in-india/",
+      "description": "This breed of dog is known for being affectionate and gentle. Their good-looks and intelligence make them one of the favorite pet dogs for families.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2019/07/english-cocker-spaniel.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/english-cocker-spaniel-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2019/07/english-cocker-spaniel.jpg",
+      "size": "Medium",
+      "traits": ["Affectionate", "Quiet", "Friendly", "Playful"],
+      "group": "Sporting",
+      "lifespan": "12 – 15 years"
     },
     {
-      "image": "https://m.media-amazon.com/images/I/915WVrOntJL._AC_UL480_FMwebp_QL65_.jpg",
-      "price": 45,
-      "percentage": 25,
-      "description": "Get uniquely delicious and flavorful pickles and chutneys made by expert mom-chefs of Mithilanchal, Bihar. No Preservatives, No Additives, No Colors. Seasonal Fruits and Vegetables blended in locally sourced spices and mustard oil. ",
-      "founder": "Kalpana Jha ",
-      "category": "Food",
-      "year": "24-12-2018",
-      "title": "JhaJi Achaar",
-      "id": "10"
+      "name": "Pug",
+      "link": "https://dogbreedo.com/pug-price-in-india/",
+      "description": "Known for its peculiar physical features, this breed of dog is one of the most likeable dogs in India. It is playful and affectionate with children. It is one of the smallest dogs in the world.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/pug.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/pug-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/pug.jpg",
+      "size": "Small",
+      "traits": ["Docile", "Clever", "Quiet", "Charming"],
+      "group": "Toy",
+      "lifespan": "12 – 15 years"
     },
     {
-      "image": "https://www.cocofit.in/images/Picture4_large.png",
-      "price": 25,
-      "percentage": 3.5,
-      "description": "We strive, respect and work hard every second taking our demigod to a new level with a delicious serving that would be a life changing experience.",
-      "founder": "Sashi Kanth V",
-      "category": "Food",
-      "year": "17-11-2017",
-      "title": "Cocofit",
-      "id": "11"
+      "name": "Rottweiler",
+      "link": "https://dogbreedo.com/rottweiler-price-in-india/",
+      "description": "Intelligent, loyal and strong are the words used to describe this breed of dogs. Rottweilers make good guard dogs. They are mostly used for police and military work.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/rottweiler.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/rottweiler-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/rottweiler.jpg",
+      "size": "Large",
+      "traits": ["Steady", "Alert", "Courageous", "Obedient"],
+      "group": "Working",
+      "lifespan": "8 – 10 years"
     },
     {
-      "image": "https://static.wixstatic.com/media/5f24cf_a17220104bb5486d943ad3acd5808e90~mv2.png/v1/fill/w_506,h_314,al_c,q_80,usm_0.66_1.00_0.01/5f24cf_a17220104bb5486d943ad3acd5808e90~mv2.png",
-      "price": 26,
-      "percentage": 2.56,
-      "description": "Falhari is India’s #1 fresh fruit products brand with an extensive range of delightful, made-to-order recipes of Salads, Juices, Smoothies, Lassis, Yoghurts, and more",
-      "founder": "Rahul Shankar Bhardwaj",
-      "category": "Food",
-      "year": "20-12-2021",
-      "title": "Falhari",
-      "id": "13"
+      "name": "Doberman",
+      "link": "https://dogbreedo.com/doberman-price-in-india/",
+      "description": "This breed of dog is known for its agility, speed and intelligence. Once trained, they can be really socially-oriented and loving.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/doberman.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/doberman-big-1.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/doberman.jpg",
+      "size": "Large",
+      "traits": ["Fearless", "Alert", "Confident", "Energetic"],
+      "group": "Working",
+      "lifespan": "10 – 13 years"
     },
     {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOkeAS5PgCBISOPRp_mZJuIxJ74IyCAlP_A&usqp=CAU",
-      "price": 50,
-      "percentage": 2,
-      "description": "We push our boundaries every day, we’re here to innovate and inspire a new generation of sustainable sanitation technology. PadCare isn’t a startup, it’s a revolution.",
-      "founder": "Ajinkya Dhariya",
-      "category": "Electronics",
-      "year": "07-09-2022",
-      "title": "Padcare Lab",
-      "id": "15"
+      "name": "Great Dane",
+      "link": "https://dogbreedo.com/great-dane-price-in-india/",
+      "description": "Great Danes are giant-sized dogs. In fact, they are one of the tallest dogs in the world. They are immensely gentle and caring. They make a really great family companion.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/great-dane.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/great-dane-big-1.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/great-dane.jpg",
+      "size": "Large",
+      "traits": ["Devoted", "Confident", "Friendly", "Reserved"],
+      "group": "Working",
+      "lifespan": "8 – 10 years"
     },
     {
-      "image": "https://m.media-amazon.com/images/I/617QlJ62nFL._AC_UL480_FMwebp_QL65_.jpg",
-      "price": 57,
-      "percentage": 2,
-      "description": "aradyes is a semi-permanent hair color brand. She introduced the brand by identifying a gap in the market. Banking on her family business of dyes and intermediates, she teamed up with professionals and began R&D to formulate hair colors in their lab.",
-      "founder": "Yushika Jolly,",
-      "category": "Personal Care",
-      "year": "01-07-2021",
-      "title": "Paradyes",
-      "id": "16"
+      "name": "Pomeranian",
+      "link": "https://dogbreedo.com/pomeranian-price-in-india/",
+      "description": "Active and playful, Pomeranians are the best companion for kids. Because of their active nature, they are used as watchdogs too.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/pomeranian.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/pomeranian-big-1.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/pomeranian.jpg",
+      "size": "Small",
+      "traits": ["Extroverted", "Intelligent", "Friendly", "Sociable"],
+      "group": "Toy",
+      "lifespan": "12 – 16 years"
     },
     {
-      "image": "https://m.media-amazon.com/images/I/610d1RfgHDL._AC_UL480_FMwebp_QL65_.jpg",
-      "price": 100,
-      "percentage": 1.5,
-      "description": "A small device that can be attached to any normal stethoscope and the stethoscope will become a digital one. Using this device it can reduce background noise, better audio, and visual clarity, and after all, one can get the live stream of data. ",
-      "founder": "Adarsha K",
-      "category": "Electronics",
-      "year": "12-22-2014",
-      "title": "AyuSynk",
-      "id": "17"
-    },
-    {
-      "image": "https://www.primebook.in/uploads/feature/1675677835_d887598e98a67da677f0.png",
-      "price": 75,
-      "percentage": 1.5,
-      "description": "Primebook 4G unites everything you need to elevate your learning. Meet the first Made In India 4G laptop, engineered with cutting-edge technology, based on the Android 11 Ecosystem, unlocking limitless learning opportunities.",
-      "founder": "Chitranshu Mahant",
-      "category": "Tech",
-      "title": "Primebook",
-      "year": "14-02-2020",
-      "id": "21"
-    },
-    {
-      "image": "https://m.media-amazon.com/images/I/61pq3ae629L._AC_UY327_FMwebp_QL65_.jpg",
-      "price": 45,
-      "percentage": 10,
-      "description": "HoloKitab is an edTech platform that enables book publishers and manufacturers from various industries to deliver Augmented Reality content to their users in a cost effective way.",
-      "founder": "Dipanshu Bajaj and Nikhil Miglani",
-      "category": "Education",
-      "year": "15-04-2020",
-      "title": "HoloKitab",
-      "id": "22"
-    },
-    {
-      "id": "aba6",
-      "title": "Samsung Galaly S24 Ultra",
-      "image": "https://th.bing.com/th/id/OIP.KybY0QiPP1Hs1WXV6y9EPQHaHd?w=194&h=195&c=7&r=0&o=5&pid=1.7",
-      "category": "Electronic",
-      "founder": "Harvindar",
-      "price": "150000"
+      "name": "Dalmatian",
+      "link": "https://dogbreedo.com/dalmatian-price-in-india/",
+      "description": "Dalmatian is a unique dog breed known for its black or brown spotted coat on white background. They are smart, playful and active.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/dalmatian.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/dalmatian-big-1.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/dalmatian.jpg",
+      "size": "Medium",
+      "traits": ["Energetic", "Sensitive", "Active", "Outgoing"],
+      "group": "Non-sporting",
+      "lifespan": "10 – 13 years"
     }
   ]
 }
