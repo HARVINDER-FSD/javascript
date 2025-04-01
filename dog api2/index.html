@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    data {
+      display: grid;
+      justify-content: center;
+      color: crimson;
+    }
+  </style>
+
+  <body>
+    <div id="d1"></div>
+    <script>
+      function fetchdata() {
+        fetch("http://localhost:3000/breeds")
+          .then((res) => res.json())
+          .then((datas) => {
+            cardList(datas);
+          })
+          .catch((err) => console.log(err));
+      }
+      fetchdata();
+
+      function cardList(datas) {
+        let store = datas.map((el) =>
+          card(
+            el.name,
+            el.description,
+            el.images.big,
+            el.size,
+            el.group,
+            el.traits,
+            el.lifespan
+          )
+        );
+        document.getElementById("d1").innerHTML = store.join("");
+      }
+      function card(name, description, images, size, group, traits, lifespan) {
+        let card = `
+          <div style="display:flex; border: 2px solid black; margin:0 auto; width:90%; text-align: center;justify-content: center; padding:15px">
+          <h1 style="color:red;width:20%;">Name:<br>${name}</h1>
+          <img src="${images}" height="200px" width="200px" style="border-radius: 50%;"  />
+           <div style="width:40%">
+            <p>Traits:${traits}</p>
+            <p>Size: ${size}</p>
+            <p>Group: ${group}</p>
+            <p>Lifespan: ${lifespan}</p>
+            </div>
+          </div>
+      `;
+        return card;
+      }
+    </script>
+  </body>
+</html>

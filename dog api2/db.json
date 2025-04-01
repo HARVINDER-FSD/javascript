@@ -1,0 +1,200 @@
+{
+  "breeds": [
+    {
+      "name": "Labrador Retriever",
+      "link": "https://dogbreedo.com/labrador-puppy-price-in-india/",
+      "description": "The Labrador Retriever is one of the most preferred choices for Indians. They are smart and loving and make a great family dog.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/labrador-retriever.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/labrador-retriever-big-1.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/labrador-retriever.jpg",
+      "size": "Large",
+      "traits": ["Agile", "gentle", "kind", "Intelligent"],
+      "group": "Sporting",
+      "lifespan": "10 – 14 years"
+    },
+    {
+      "name": "German Shepherd",
+      "link": "https://dogbreedo.com/german-shepherd-price-in-india/",
+      "description": "German shepherds as breeds are considered to be one of the most intelligent. They are smart and intuitive. They are mostly used as guard dogs and for police and military work.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2019/07/german-shepherd.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/german-shepherd-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2019/07/german-shepherd.jpg",
+      "size": "Large",
+      "traits": ["Loyal", "obedient", "watchful", "courageous"],
+      "group": "Herding",
+      "lifespan": "9 – 13 years"
+    },
+    {
+      "name": "Golden Retriever",
+      "link": "https://dogbreedo.com/golden-retriever-price-in-india/",
+      "description": "This is another popular dog breed in the list of most popular dog breeds in India. Golden Retrievers are easy to train. They have a very pleasing demeanor. They are suitable as family dogs.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/golden-retriever.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/golden-retriever-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/golden-retriever.jpg",
+      "size": "Large",
+      "traits": ["friendly", "reliable", "kind", "intelligent"],
+      "group": "Sporting",
+      "lifespan": "10 – 12 years"
+    },
+    {
+      "name": "Dachshund",
+      "link": "https://dogbreedo.com/dachshund-price-in-india/",
+      "description": "This breed of dog can be found in various sizes and colors. They are among the most preferred dogs in the Indian household because of their unique look. They are short-legged and have long tails.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/dachshund.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/dachshund-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/dachshund.jpg",
+      "size": "Small",
+      "traits": ["stubborn", "lively", "playful", "clever"],
+      "group": "Hound",
+      "lifespan": "12 – 16 years"
+    },
+    {
+      "name": "Beagle",
+      "link": "https://dogbreedo.com/beagle-dog-price-in-india/",
+      "description": "Beagles are known for being good with kids. They are fun-loving and energetic. This makes them great family dogs.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2019/07/beagle.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/beagle-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2019/07/beagle.jpg",
+      "size": "Small",
+      "traits": ["Determined", "excitable", "amiable", "Gentle"],
+      "group": "Hound",
+      "lifespan": "12 – 15 years"
+    },
+    {
+      "name": "Boxer",
+      "link": "https://dogbreedo.com/boxer-dog-price-in-india/",
+      "description": "Boxer is known as a high-energy dog. Known for their strength and agility, Boxers make good watchdogs for families. While they show patience and playfulness towards children, they respond aggressively to anything that threatens their loved ones.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/boxer.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/boxer-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/boxer.jpg",
+      "size": "Large",
+      "traits": ["Devoted", "Loyal", "Bright", "Fearless"],
+      "group": "Working",
+      "lifespan": "10 – 12 years"
+    },
+    {
+      "name": "Tibetan Mastiff",
+      "link": "https://dogbreedo.com/tibetan-mastiff-price-in-india/",
+      "description": "This is an ancient dog breed originating from Tibet. Large and intimidating, Tibetan Mastiffs are mostly used as guard dogs. They are affectionate towards family and show territorial aggression towards strangers.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2019/07/Tibetan-Mastiff-1.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2019/07/Tibetan-Mastiff-1.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2019/07/Tibetan-Mastiff-1.jpg",
+      "size": "Large",
+      "traits": ["Tenacious", "Aloof", "Strong-willed", "Stubborn"],
+      "group": "Working",
+      "lifespan": "12 – 15 years"
+    },
+    {
+      "name": "English Cocker Spaniel",
+      "link": "https://dogbreedo.com/english-cocker-spaniel-price-in-india/",
+      "description": "This breed of dog is known for being affectionate and gentle. Their good-looks and intelligence make them one of the favorite pet dogs for families.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2019/07/english-cocker-spaniel.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/english-cocker-spaniel-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2019/07/english-cocker-spaniel.jpg",
+      "size": "Medium",
+      "traits": ["Affectionate", "Quiet", "Friendly", "Playful"],
+      "group": "Sporting",
+      "lifespan": "12 – 15 years"
+    },
+    {
+      "name": "Pug",
+      "link": "https://dogbreedo.com/pug-price-in-india/",
+      "description": "Known for its peculiar physical features, this breed of dog is one of the most likeable dogs in India. It is playful and affectionate with children. It is one of the smallest dogs in the world.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/pug.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/pug-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/pug.jpg",
+      "size": "Small",
+      "traits": ["Docile", "Clever", "Quiet", "Charming"],
+      "group": "Toy",
+      "lifespan": "12 – 15 years"
+    },
+    {
+      "name": "Rottweiler",
+      "link": "https://dogbreedo.com/rottweiler-price-in-india/",
+      "description": "Intelligent, loyal and strong are the words used to describe this breed of dogs. Rottweilers make good guard dogs. They are mostly used for police and military work.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/rottweiler.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/rottweiler-big.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/rottweiler.jpg",
+      "size": "Large",
+      "traits": ["Steady", "Alert", "Courageous", "Obedient"],
+      "group": "Working",
+      "lifespan": "8 – 10 years"
+    },
+    {
+      "name": "Doberman",
+      "link": "https://dogbreedo.com/doberman-price-in-india/",
+      "description": "This breed of dog is known for its agility, speed and intelligence. Once trained, they can be really socially-oriented and loving.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/doberman.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/doberman-big-1.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/doberman.jpg",
+      "size": "Large",
+      "traits": ["Fearless", "Alert", "Confident", "Energetic"],
+      "group": "Working",
+      "lifespan": "10 – 13 years"
+    },
+    {
+      "name": "Great Dane",
+      "link": "https://dogbreedo.com/great-dane-price-in-india/",
+      "description": "Great Danes are giant-sized dogs. In fact, they are one of the tallest dogs in the world. They are immensely gentle and caring. They make a really great family companion.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/great-dane.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/great-dane-big-1.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/great-dane.jpg",
+      "size": "Large",
+      "traits": ["Devoted", "Confident", "Friendly", "Reserved"],
+      "group": "Working",
+      "lifespan": "8 – 10 years"
+    },
+    {
+      "name": "Pomeranian",
+      "link": "https://dogbreedo.com/pomeranian-price-in-india/",
+      "description": "Active and playful, Pomeranians are the best companion for kids. Because of their active nature, they are used as watchdogs too.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/pomeranian.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/pomeranian-big-1.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/pomeranian.jpg",
+      "size": "Small",
+      "traits": ["Extroverted", "Intelligent", "Friendly", "Sociable"],
+      "group": "Toy",
+      "lifespan": "12 – 16 years"
+    },
+    {
+      "name": "Dalmatian",
+      "link": "https://dogbreedo.com/dalmatian-price-in-india/",
+      "description": "Dalmatian is a unique dog breed known for its black or brown spotted coat on white background. They are smart, playful and active.",
+      "images": {
+        "small": "https://dogbreedo.com/wp-content/uploads/2018/12/dalmatian.jpg",
+        "big": "https://dogbreedo.com/wp-content/uploads/2018/12/dalmatian-big-1.jpg"
+      },
+      "short_image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://dogbreedo.com/wp-content/uploads/2018/12/dalmatian.jpg",
+      "size": "Medium",
+      "traits": ["Energetic", "Sensitive", "Active", "Outgoing"],
+      "group": "Non-sporting",
+      "lifespan": "10 – 13 years"
+    }
+  ]
+}
